@@ -8,32 +8,32 @@ from backtest_engine_1h_orb import BacktestEngine1HORB
 
 
 PAIRS = [
-    # "AUDCAD.ecn",
-    # "AUDUSD.ecn",
-    # "AUDCHF.ecn",
-    # "CADCHF.ecn",
-    # "EURAUD.ecn",
-    # "EURCAD.ecn",
-    # "EURCHF.ecn",
+    "AUDCAD.ecn",
+    "AUDUSD.ecn",
+    "AUDCHF.ecn",
+    "CADCHF.ecn",
+    "EURAUD.ecn",
+    "EURCAD.ecn",
+    "EURCHF.ecn",
     "EURUSD.ecn",
-    # "EURGBP.ecn",
-    # "GBPAUD.ecn",
-    # "GBPCAD.ecn",
-    # "GBPCHF.ecn",
-    # "GBPUSD.ecn",
-    # "NZDCAD.ecn",
-    # "NZDUSD.ecn",
-    # "NZDCHF.ecn",
-    # "USDCAD.ecn",
-    # "USDCHF.ecn",
+    "EURGBP.ecn",
+    "GBPAUD.ecn",
+    "GBPCAD.ecn",
+    "GBPCHF.ecn",
+    "GBPUSD.ecn",
+    "NZDCAD.ecn",
+    "NZDUSD.ecn",
+    "NZDCHF.ecn",
+    "USDCAD.ecn",
+    "USDCHF.ecn",
 ]
 
 INITIAL_FUND = 30.0
 INITIAL_RISK = 8.0
 
 DATA_DIR = "."
-START_DATE = "2026-05-15"
-END_DATE = "2026-05-15"
+START_DATE = "2026-05-01"
+END_DATE = "2026-05-29"
 
 EXPORT_NAME = f"backtest_{START_DATE}_to_{END_DATE}.xlsx"
 TIMEFRAME = mt5.TIMEFRAME_M15

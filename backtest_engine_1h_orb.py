@@ -189,7 +189,7 @@ class BacktestEngine1HORB:
 
         # SERVER-time HH/LL disable window:
         # Detection allowed, but new order processing blocked in this window.
-        self.hhll_disable_start_server = time(19, 00)
+        self.hhll_disable_start_server = time(12, 00)
         self.hhll_disable_end_server = time(23, 45)
 
         # 🔹 Local Gann lookup load (JSON)
