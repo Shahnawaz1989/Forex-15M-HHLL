@@ -131,6 +131,15 @@ def process_pair(engine: BacktestEngine1HORB, pair: str):
     try:
         reg = engine._load_live_registry()
 
+        TERMINAL_CANCEL_STATUSES = {
+            "CANCELLED",
+            "CANCELLEDNEWHHLL",
+            "CANCELLED_NEW_HHLL",
+            "FILLED_BUY",
+            "FILLED_SELL",
+            "BE_APPLIED",
+        }
+
         for signal_id, row in reg.items():
             row_pair = str(row.get("pair", "")).strip()
             row_day = str(row.get("day", "")).strip()
@@ -147,18 +156,33 @@ def process_pair(engine: BacktestEngine1HORB, pair: str):
             if side not in ("B", "S"):
                 continue
 
+            suffix = "BUY" if side == "B" else "SELL"
+            signal_file = os.path.join(
+                SIGNAL_DIR,
+                f"live_signal_{pair}_{suffix}.txt",
+            )
+
+            existing = {}
+            existing_status = ""
+            try:
+                existing = engine._read_live_signal_file(signal_file) or {}
+                existing_status = str(existing.get(
+                    "status", "")).strip().upper()
+            except Exception:
+                existing = {}
+                existing_status = ""
+
+            if str(existing.get("signal_id", "")).strip() == signal_id and existing_status in TERMINAL_CANCEL_STATUSES:
+                print(
+                    f"  -> Skip direct CANCEL, file already terminal: {signal_id} status={existing_status}")
+                continue
+
             row_day_obj = pd.to_datetime(row_day, errors="coerce")
             if pd.isna(row_day_obj):
                 print(
                     f"  -> Skipping CANCEL for {signal_id}: invalid row_day={row_day}")
                 continue
             row_day_obj = row_day_obj.date()
-
-            suffix = "BUY" if side == "B" else "SELL"
-            signal_file = os.path.join(
-                SIGNAL_DIR,
-                f"live_signal_{pair}_{suffix}.txt",
-            )
 
             cancel_payload = engine._build_live_cancel_payload(
                 pair=pair,
