@@ -67,6 +67,7 @@ from live_signal_orchestrator import (
     choose_live_setup_for_day,
     generate_live_dual_signals_for_latest_day,
 )
+from live_registry_file_sync import sync_registry_from_mt5_files_for_pair_day
 # Simple ANSI colors for terminal
 RESET = "\033[0m"
 GREEN = "\033[92m"

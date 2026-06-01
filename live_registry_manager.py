@@ -86,7 +86,14 @@ def mark_signal_non_completed_in_registry(signal_id: str, status: str):
     if (
         row_completed
         or row_status == "COMPLETED"
-        or row_exit_result in {"tp", "sl", "sl_lock10", "session_exit"}
+        or row_exit_result in {
+            "tp",
+            "sl",
+            "sl_lock10",
+            "session_exit",
+            "orderexpired1930",
+            "failed",
+        }
     ):
         print(f" -> Refusing to downgrade finalized row: {signal_id}")
         return
@@ -102,7 +109,22 @@ def mark_signal_non_completed_in_registry(signal_id: str, status: str):
 def is_signal_completed_in_registry(signal_id: str) -> bool:
     reg = load_live_registry()
     row = reg.get(signal_id, {})
-    return bool(row.get("completed", False))
+
+    row_status = str(row.get("registry_status", "")).strip().upper()
+    row_exit_result = str(row.get("exit_result", "")).strip().lower()
+
+    return (
+        bool(row.get("completed", False))
+        or row_status == "COMPLETED"
+        or row_exit_result in {
+            "tp",
+            "sl",
+            "sl_lock10",
+            "session_exit",
+            "orderexpired1930",
+            "failed",
+        }
+    )
 
 
 def is_same_completed_trade_prices(

@@ -7,6 +7,7 @@ from backtest_engine_1h_orb import BacktestEngine1HORB
 from live_data_mt5 import fetch_live_15m
 from order_mt5 import init_mt5, shutdown_mt5
 from live_cleanup import run_startup_cleanup
+from live_registry_file_sync import sync_registry_from_mt5_files_for_pair_day
 
 
 HEARTBEAT_FILE = r"C:\trading_bot\heartbeats\live_runner_heartbeat.json"
@@ -89,7 +90,7 @@ def process_pair(engine: BacktestEngine1HORB, pair: str):
     print(f"  -> {pair} max datetime in 15m df = {df['datetime'].max()}")
     print(df[["datetime", "open", "high", "low", "close"]].tail(5))
 
-    # 1) Reconcile old/open rows
+    # 1) Reconcile old/open rows from market data
     try:
         engine._reconcile_open_registry_signals_with_market_data(
             pair=pair,
@@ -97,6 +98,16 @@ def process_pair(engine: BacktestEngine1HORB, pair: str):
         )
     except Exception as e:
         print(f"  -> First reconcile failed for {pair}: {e}")
+
+    # 1.5) Sync MT5 file statuses back into registry
+    try:
+        sync_registry_from_mt5_files_for_pair_day(
+            pair=pair,
+            day=latest_day,
+            signal_dir=SIGNAL_DIR,
+        )
+    except Exception as e:
+        print(f"  -> File-status sync failed for {pair}: {e}")
 
     # 2) Generate / refresh latest day signals
     result = engine.generate_live_dual_signals_for_latest_day(
