@@ -13,7 +13,7 @@
     "picked_candle_time": "2026-06-01 05:15:00",
     "breakout_candle_time": "2026-06-01 05:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:09"
+    "last_updated": "2026-06-01 08:41:14"
   },
   "AUDUSD.ecn_2026-06-01_B_2026-06-01_00-30-00_0.71780_0.71520_0.72000": {
     "signal_id": "AUDUSD.ecn_2026-06-01_B_2026-06-01_00-30-00_0.71780_0.71520_0.72000",
@@ -29,7 +29,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:30:00",
     "registry_status": "ENTRY_HIT",
-    "last_updated": "2026-06-01 08:33:10",
+    "last_updated": "2026-06-01 08:41:15",
     "entry_hit": true,
     "entry_time": "2026-06-01 00:45:00",
     "exit_time": "2026-06-01 06:00:00"
@@ -48,7 +48,7 @@
     "picked_candle_time": "2026-06-01 05:00:00",
     "breakout_candle_time": "2026-06-01 05:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:10"
+    "last_updated": "2026-06-01 08:41:15"
   },
   "AUDCHF.ecn_2026-06-01_B_2026-06-01_00-30-00_0.56450_0.56250_0.56570": {
     "signal_id": "AUDCHF.ecn_2026-06-01_B_2026-06-01_00-30-00_0.56450_0.56250_0.56570",
@@ -64,7 +64,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:11"
+    "last_updated": "2026-06-01 08:41:15"
   },
   "AUDCHF.ecn_2026-06-01_S_2026-06-01_05-30-00_0.56050_0.56250_0.55935": {
     "signal_id": "AUDCHF.ecn_2026-06-01_S_2026-06-01_05-30-00_0.56050_0.56250_0.55935",
@@ -80,7 +80,7 @@
     "picked_candle_time": "2026-06-01 05:15:00",
     "breakout_candle_time": "2026-06-01 05:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:11"
+    "last_updated": "2026-06-01 08:41:15"
   },
   "CADCHF.ecn_2026-06-01_B_2026-06-01_01-00-00_0.56710_0.56480_0.56920": {
     "signal_id": "CADCHF.ecn_2026-06-01_B_2026-06-01_01-00-00_0.56710_0.56480_0.56920",
@@ -96,7 +96,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 01:00:00",
     "registry_status": "ENTRY_HIT",
-    "last_updated": "2026-06-01 08:33:11",
+    "last_updated": "2026-06-01 08:41:15",
     "entry_hit": true,
     "entry_time": "2026-06-01 05:00:00",
     "exit_time": "2026-06-01 06:00:00"
@@ -115,7 +115,7 @@
     "picked_candle_time": "2026-06-01 05:00:00",
     "breakout_candle_time": "2026-06-01 05:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:11"
+    "last_updated": "2026-06-01 08:41:16"
   },
   "EURAUD.ecn_2026-06-01_S_2026-06-01_00-30-00_1.61780_1.62090_1.61585": {
     "signal_id": "EURAUD.ecn_2026-06-01_S_2026-06-01_00-30-00_1.61780_1.62090_1.61585",
@@ -131,7 +131,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:11"
+    "last_updated": "2026-06-01 08:41:16"
   },
   "EURCAD.ecn_2026-06-01_B_2026-06-01_03-00-00_1.61230_1.60910_1.61425": {
     "signal_id": "EURCAD.ecn_2026-06-01_B_2026-06-01_03-00-00_1.61230_1.60910_1.61425",
@@ -147,7 +147,7 @@
     "picked_candle_time": "2026-06-01 02:45:00",
     "breakout_candle_time": "2026-06-01 03:00:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:12"
+    "last_updated": "2026-06-01 08:41:16"
   },
   "EURCHF.ecn_2026-06-01_B_2026-06-01_03-00-00_0.91500_0.91250_0.91645": {
     "signal_id": "EURCHF.ecn_2026-06-01_B_2026-06-01_03-00-00_0.91500_0.91250_0.91645",
@@ -163,7 +163,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 03:00:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:12"
+    "last_updated": "2026-06-01 08:41:17"
   },
   "EURUSD.ecn_2026-06-01_B_2026-06-01_05-45-00_1.16970_1.16690_1.17135": {
     "signal_id": "EURUSD.ecn_2026-06-01_B_2026-06-01_05-45-00_1.16970_1.16690_1.17135",
@@ -179,7 +179,7 @@
     "picked_candle_time": "2026-06-01 04:45:00",
     "breakout_candle_time": "2026-06-01 05:45:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:12"
+    "last_updated": "2026-06-01 08:41:18"
   },
   "EURUSD.ecn_2026-06-01_S_2026-06-01_01-00-00_1.16090_1.16360_1.15920": {
     "signal_id": "EURUSD.ecn_2026-06-01_S_2026-06-01_01-00-00_1.16090_1.16360_1.15920",
@@ -195,7 +195,7 @@
     "picked_candle_time": "2026-06-01 00:45:00",
     "breakout_candle_time": "2026-06-01 01:00:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:12"
+    "last_updated": "2026-06-01 08:41:18"
   },
   "EURGBP.ecn_2026-06-01_B_2026-06-01_00-45-00_0.87130_0.86880_0.87270": {
     "signal_id": "EURGBP.ecn_2026-06-01_B_2026-06-01_00-45-00_0.87130_0.86880_0.87270",
@@ -211,7 +211,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:45:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:13"
+    "last_updated": "2026-06-01 08:41:18"
   },
   "EURGBP.ecn_2026-06-01_S_2026-06-01_02-30-00_0.86590_0.86880_0.86350": {
     "signal_id": "EURGBP.ecn_2026-06-01_S_2026-06-01_02-30-00_0.86590_0.86880_0.86350",
@@ -227,7 +227,7 @@
     "picked_candle_time": "2026-06-01 01:30:00",
     "breakout_candle_time": "2026-06-01 02:30:00",
     "registry_status": "ENTRY_HIT",
-    "last_updated": "2026-06-01 08:33:13",
+    "last_updated": "2026-06-01 08:41:18",
     "entry_hit": true,
     "entry_time": "2026-06-01 02:45:00",
     "exit_time": "2026-06-01 06:00:00"
@@ -246,7 +246,7 @@
     "picked_candle_time": "2026-06-01 04:30:00",
     "breakout_candle_time": "2026-06-01 05:00:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:13"
+    "last_updated": "2026-06-01 08:41:18"
   },
   "GBPCAD.ecn_2026-06-01_B_2026-06-01_00-30-00_1.85680_1.85260_1.86010": {
     "signal_id": "GBPCAD.ecn_2026-06-01_B_2026-06-01_00-30-00_1.85680_1.85260_1.86010",
@@ -262,7 +262,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:30:00",
     "registry_status": "ENTRY_HIT",
-    "last_updated": "2026-06-01 08:33:13",
+    "last_updated": "2026-06-01 08:41:19",
     "entry_hit": true,
     "entry_time": "2026-06-01 03:45:00",
     "exit_time": "2026-06-01 06:00:00"
@@ -281,7 +281,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:30:00",
     "registry_status": "ENTRY_HIT",
-    "last_updated": "2026-06-01 08:33:14",
+    "last_updated": "2026-06-01 08:41:19",
     "entry_hit": true,
     "entry_time": "2026-06-01 04:00:00",
     "exit_time": "2026-06-01 06:00:00"
@@ -300,7 +300,7 @@
     "picked_candle_time": "2026-06-01 03:15:00",
     "breakout_candle_time": "2026-06-01 04:45:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:14"
+    "last_updated": "2026-06-01 08:41:19"
   },
   "GBPUSD.ecn_2026-06-01_S_2026-06-01_03-15-00_1.34030_1.34320_1.33850": {
     "signal_id": "GBPUSD.ecn_2026-06-01_S_2026-06-01_03-15-00_1.34030_1.34320_1.33850",
@@ -316,7 +316,7 @@
     "picked_candle_time": "2026-06-01 02:45:00",
     "breakout_candle_time": "2026-06-01 03:15:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:14"
+    "last_updated": "2026-06-01 08:41:19"
   },
   "NZDCAD.ecn_2026-06-01_B_2026-06-01_00-15-00_0.82340_0.82060_0.82580": {
     "signal_id": "NZDCAD.ecn_2026-06-01_B_2026-06-01_00-15-00_0.82340_0.82060_0.82580",
@@ -332,7 +332,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:15:00",
     "registry_status": "ENTRY_HIT",
-    "last_updated": "2026-06-01 08:33:14",
+    "last_updated": "2026-06-01 08:41:20",
     "entry_hit": true,
     "entry_time": "2026-06-01 00:15:00",
     "exit_time": "2026-06-01 06:00:00"
@@ -351,7 +351,7 @@
     "picked_candle_time": "2026-06-01 04:00:00",
     "breakout_candle_time": "2026-06-01 04:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:14"
+    "last_updated": "2026-06-01 08:41:20"
   },
   "NZDUSD.ecn_2026-06-01_S_2026-06-01_05-30-00_0.59330_0.59540_0.59210": {
     "signal_id": "NZDUSD.ecn_2026-06-01_S_2026-06-01_05-30-00_0.59330_0.59540_0.59210",
@@ -367,7 +367,7 @@
     "picked_candle_time": "2026-06-01 00:45:00",
     "breakout_candle_time": "2026-06-01 05:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:15"
+    "last_updated": "2026-06-01 08:41:20"
   },
   "NZDCHF.ecn_2026-06-01_B_2026-06-01_00-15-00_0.46740_0.46530_0.46920": {
     "signal_id": "NZDCHF.ecn_2026-06-01_B_2026-06-01_00-15-00_0.46740_0.46530_0.46920",
@@ -383,7 +383,7 @@
     "picked_candle_time": "2026-06-01 00:00:00",
     "breakout_candle_time": "2026-06-01 00:15:00",
     "registry_status": "ENTRY_HIT",
-    "last_updated": "2026-06-01 08:33:15",
+    "last_updated": "2026-06-01 08:41:21",
     "entry_hit": true,
     "entry_time": "2026-06-01 00:45:00",
     "exit_time": "2026-06-01 06:00:00"
@@ -402,7 +402,7 @@
     "picked_candle_time": "2026-06-01 03:45:00",
     "breakout_candle_time": "2026-06-01 04:30:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:15"
+    "last_updated": "2026-06-01 08:41:21"
   },
   "USDCAD.ecn_2026-06-01_B_2026-06-01_01-00-00_1.38570_1.38280_1.38755": {
     "signal_id": "USDCAD.ecn_2026-06-01_B_2026-06-01_01-00-00_1.38570_1.38280_1.38755",
@@ -418,7 +418,7 @@
     "picked_candle_time": "2026-06-01 00:30:00",
     "breakout_candle_time": "2026-06-01 01:00:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:16"
+    "last_updated": "2026-06-01 08:41:21"
   },
   "USDCAD.ecn_2026-06-01_S_2026-06-01_06-00-00_1.37620_1.37920_1.37440": {
     "signal_id": "USDCAD.ecn_2026-06-01_S_2026-06-01_06-00-00_1.37620_1.37920_1.37440",
@@ -434,7 +434,7 @@
     "picked_candle_time": "2026-06-01 05:45:00",
     "breakout_candle_time": "2026-06-01 06:00:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:16"
+    "last_updated": "2026-06-01 08:41:21"
   },
   "USDCHF.ecn_2026-06-01_S_2026-06-01_06-00-00_0.77960_0.78190_0.77825": {
     "signal_id": "USDCHF.ecn_2026-06-01_S_2026-06-01_06-00-00_0.77960_0.78190_0.77825",
@@ -450,6 +450,38 @@
     "picked_candle_time": "2026-06-01 05:30:00",
     "breakout_candle_time": "2026-06-01 06:00:00",
     "registry_status": "GENERATED",
-    "last_updated": "2026-06-01 08:33:16"
+    "last_updated": "2026-06-01 08:41:22"
+  },
+  "EURCHF.ecn_2026-06-01_S_2026-06-01_06-00-00_0.90710_0.90960_0.90560": {
+    "signal_id": "EURCHF.ecn_2026-06-01_S_2026-06-01_06-00-00_0.90710_0.90960_0.90560",
+    "pair": "EURCHF.ecn",
+    "day": "2026-06-01",
+    "side": "S",
+    "entry": 0.9071,
+    "sl": 0.9096,
+    "tp": 0.9056,
+    "atr": 0.00036,
+    "completed": false,
+    "trigger_time": "2026-06-01 06:00:00",
+    "picked_candle_time": "2026-06-01 05:30:00",
+    "breakout_candle_time": "2026-06-01 06:00:00",
+    "registry_status": "GENERATED",
+    "last_updated": "2026-06-01 08:41:17"
+  },
+  "GBPCHF.ecn_2026-06-01_S_2026-06-01_06-00-00_1.05050_1.05320_1.04895": {
+    "signal_id": "GBPCHF.ecn_2026-06-01_S_2026-06-01_06-00-00_1.05050_1.05320_1.04895",
+    "pair": "GBPCHF.ecn",
+    "day": "2026-06-01",
+    "side": "S",
+    "entry": 1.0505,
+    "sl": 1.0532,
+    "tp": 1.04895,
+    "atr": 0.00048,
+    "completed": false,
+    "trigger_time": "2026-06-01 06:00:00",
+    "picked_candle_time": "2026-06-01 05:30:00",
+    "breakout_candle_time": "2026-06-01 06:00:00",
+    "registry_status": "GENERATED",
+    "last_updated": "2026-06-01 08:41:19"
   }
 }
